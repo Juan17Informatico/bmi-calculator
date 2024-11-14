@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(250, 246, 239);
+    background: linear-gradient(
+        135deg,
+        rgba(250, 246, 239, 1) 0%,
+        rgba(255, 240, 214, 1) 50%,
+        rgba(255, 225, 173, 1) 100%
+    );
+
+    min-height: 100vh;
+}
+
+.container-bmi-calculator{
+    display: flex;
+    
+}
